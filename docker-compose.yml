@@ -10,7 +10,7 @@ services:
       PGID: 100
       EULA: 1
     volumes:
-      - /home/minecraft/mcmyadmin:/data
+      - /home/minecraft/mcmyadmin:/home/administrator/apps/data/minecraft
     ports:
       - 8080:8080
       - 25565:25565
