@@ -15,5 +15,5 @@ services:
       - 8080:8080
       - 25565:25565
 #      - 8123:/8123 e.g. add addtional ports as you like e.g. this sample for DynMap
-    stop_grace_period: 30s
+#    stop_grace_period: 30s
     restart: unless-stopped
